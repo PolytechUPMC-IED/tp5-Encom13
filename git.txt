@@ -1,0 +1,50 @@
+Exercice 1 :
+
+Q2) Le repertoire .git a été créé
+
+Q4) "Sur la branche master
+
+Validation initiale
+
+Fichiers non suivis:
+  (utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
+
+	fichier
+
+aucune modification ajoutée à la validation mais des fichiers non suivis sont présents (utilisez "git add" pour les suivre)"
+
+Cela veut dire que l'on peut suivre les fichiers présents dans le répertoire grâce à la commande git add.
+
+Q5) Le fichier "fichier" est désormais suivi.
+
+Q7) Le statut du répertoire est désormais "Sur la branche master rien à valider, la copie de travail est propre"
+
+Q8) commit 0d89d099c12597b11874be34207ab545b1019b35
+Author: 3672196 <3672196@pc4066.polytech.upmc.fr> // Cela correspond au nom d'utilisateur choisi en début de TP
+Date:   Thu Oct 27 09:30:39 2016 +0200 //Cela correspond à l'éxecution du commit
+
+    Un superMessage //Les message choisi avec -m
+
+diff --git a/fichier b/fichier
+new file mode 100644
+index 0000000..e69de29
+
+Q9) On obtient : "diff --git a/fichier b/fichier
+index e69de29..3d04253 100644
+--- a/fichier
++++ b/fichier
+@@ -0,0 +1 @@
++palabalam"
+
+On y voir les modifications apportés au fichier.
+
+Exercice 2:
+Q1) Il est affiché :
+* master
+  test
+
+Q6)Il est affiché: "Fusion automatique de fichier
+CONFLIT (contenu) : Conflit de fusion dans fichier
+La fusion automatique a échoué ; réglez les conflits et validez le résultat."
+
+Q7)On a modfié de la même manière les lignes du fichier dans les branches test et master . Ensuite on a suivi les instruction en validant la fusion à l'aide de la commande git commit -a .

@@ -4,7 +4,7 @@ int main(void)
 {
   int i,size,sum;
   int *p;
-  
+
   printf("Entrez un nombre\n");
   scanf("%d",&size);
 
